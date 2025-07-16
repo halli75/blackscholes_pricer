@@ -1,9 +1,6 @@
 import numpy as np
 from scipy.stats import norm
 
-import numpy as np
-from scipy.stats import norm
-
 def bs_call_price(S: float, K: float, T: float, r: float, σ: float) -> float:
     """
     European call price under Black–Scholes (q=0).
